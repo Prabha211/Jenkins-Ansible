@@ -7,7 +7,7 @@ pipeline{
                 git branch: 'main', credentialsId: 'gitcred', url: ‘https://github.com/srkdevops15/java_demo’
             }
         }
-//added new line
+//Next is sonarscan step
         stage('sonarscan'){
             steps{
                 script{
